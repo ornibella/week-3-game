@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ 	<meta charset="UTF-8">
+ 	<title>Marine Life Hangman</title>
+
+ 	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+ 	<!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+
+</head>
+<body>
+
+
+<div class="jumbotron" style="text-align:center;">
+  <h1>Guess that Sea Animal!</h1>
+  <p>Press any key to start</p>
+</div>
+
+<img id="background" src="assets/images/background.jpg" alt="sea">
+
+
+<div class="col-md-4">
+    <div id="placeHolder">_ _ _ _ _ _</div>
+    <div id="gamestatus"></div>
+    <input type="text" size="1" id="letterGuess" maxlength="1">
+    <button id="button" onclick="guess()">Press to start</button>
+</div>
+
+    <script src="assets/javascript/game.js"> </script>
+  
+</div>
+
+
+</body>
+</html>
