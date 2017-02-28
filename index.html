@@ -9,6 +9,7 @@
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
  	<!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
 
 </head>
@@ -31,17 +32,29 @@
 	<div class="col-md-6">
     	<div id="word_bank"></div>
     </div>
-    
+
 	<div class="col-md-6">
 		<div id="letters_guessed">Letters guessed:</div>
 	 <!-- <div id="guesses"></div> -->
 	</div>
 </div>
 
+<br>
+
+<div class="container">
+
 <div class="row">
-	<div class="col-md-6">
-		<p> Guesses Left: <span id="guesses_left"></span></p>
+	<div class="col-md-4">
+		<p> Guesses Left: <span id="guesses_left"></span></p>		
 	</div>
+	<div class="col-md-4">
+		<p> Wins: <span id="win_counter"></span></p>
+	</div>
+	<div class="col-md-4">
+		<p> Losses: <span id="loss_counter"></span></p>
+	</div>
+</div>
+
 </div>	
 
 <script type="text/javascript" src="assets/javascript/game.js"> </script>
